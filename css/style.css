@@ -1,3 +1,58 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+
+[class*="col-"] {
+  /* border: 1px solid black; */
+}
+
+
+/* Header */
+header{
+  /* background-color: orange; */
+  position: fixed;
+  width: 100%;
+}
+header ul{
+  height: 35px;
+}
+header ul li a{
+  color: black;
+  line-height: 45px;
+}
+header ul li i{
+  margin-left: 5px;
+}
+header ul li a.btn{
+  line-height: normal;
+  background-color: white;
+  color: #016AFF;
+  border: 1px solid #016AFF;
+
+}
+header img{
+  height: 25px;
+  margin: 10px 0px;
+}
+header .menu{
+  height: 45px;
+}
+header .menu i{
+  line-height: 45px;
+}
+
+
+/* Main */
+
+/* .header_bottom{
+  height: 80vh;
+  background-image: url("../img/sfondo-header.svg");
+} */
+
+/* Footer */
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+}
