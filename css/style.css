@@ -176,8 +176,27 @@ main{
   color: grey;
 }
 
-
-
+/* Quarta Sezione */
+.quarta-sezione{
+  background-color: #F2F5F9;
+}
+.quarta-sezione h3{
+  margin: 50px 0px 15px 0px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.quarta-sezione p{
+  margin: 15px 0px 50px 0px;
+  font-size: 20px;
+  color: grey;
+}
+.quarta-sezione img{
+  width: 100%;
+  object-fit: contain;
+}
+.quarta-sezione i{
+  line-height: 359px;
+}
 
 
 /* Footer */
@@ -185,6 +204,10 @@ main{
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .prima-sezione .finestra-login{
     height: 375px;
+  }
+
+  .quarta-sezione i{
+    line-height: 399px;
   }
 }
 
@@ -202,6 +225,9 @@ main{
   .prima-sezione .finestra-login h3{
     width: 55%;
   }
+  .quarta-sezione i{
+    line-height: 304px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -217,5 +243,8 @@ main{
   }
   .prima-sezione .finestra-login h3{
     width: 55%;
+  }
+  .quarta-sezione i{
+    line-height: 394px;
   }
 }
