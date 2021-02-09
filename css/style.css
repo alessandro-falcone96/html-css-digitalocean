@@ -5,7 +5,10 @@ body{
 [class*="col-"] {
   /* border: 1px solid black; */
 }
-
+/* General */
+i {
+  margin-left: 5px;
+}
 
 /* Header */
 header{
@@ -24,9 +27,9 @@ header ul li a{
   color: black;
   line-height: 45px;
 }
-header ul li i{
+/* header ul li i{
   margin-left: 5px;
-}
+} */
 header ul li a.btn{
   line-height: normal;
   background-color: white;
@@ -121,6 +124,28 @@ main{
   background-color: white;
   box-shadow: 1px 1px lightgrey;
 }
+
+/* Seconda Sezione */
+.seconda-sezione{
+  background-color: #F2F5F9;
+}
+.seconda-sezione h5{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: grey;
+  line-height: 100px;
+}
+.seconda-sezione img{
+  height: 100px;
+  width: 100%;
+  object-fit: contain;
+}
+.seconda-sezione .row a{
+  color: #016AFF;
+  line-height: 100px;
+}
+
+
 
 
 /* Footer */
