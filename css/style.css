@@ -145,6 +145,38 @@ main{
   line-height: 100px;
 }
 
+/* Terza Sezione */
+.terza-sezione .prima-riga h3{
+  margin: 50px 0px 15px 0px;
+  color: black;
+}
+.terza-sezione .prima-riga p{
+  width: 80%;
+  margin: 10px auto;
+
+}
+.terza-sezione .seconda-riga ul{
+  margin: 30px 0px;
+}
+.terza-sezione .seconda-riga ul li{
+  list-style: none;
+  border-left: 2px solid grey;
+  padding: 5px 10px;
+}
+.terza-sezione .seconda-riga ul li a{
+  text-decoration: none;
+  color: grey;
+  font-size: 20px;
+}
+.terza-sezione .seconda-riga img{
+  margin: 30px 0px 0px 0px;
+}
+.terza-sezione .seconda-riga p{
+  width: 90%;
+  color: grey;
+}
+
+
 
 
 
