@@ -50,24 +50,16 @@ header .menu i{
 
 
 /* Main */
-main{
-  height: 300vh;
-}
 
 /* Prima Sezione */
 .prima-sezione{
-  height: 100vh;
   background-image: url("../img/sfondo-header.svg");
   background-size: cover;
   background-position: center;
 }
-.prima-sezione .container{
-  position: relative;
-}
-.prima-sezione .contenuto{
-  position: absolute;
-  top: 250px;
-  left: 0px;
+.prima-sezione .contenuto,
+.prima-sezione .contenitore-finestra-login{
+  padding: 200px 0px;
 }
 .prima-sezione .contenuto h1{
   color: white;
@@ -83,11 +75,6 @@ main{
   line-height: 25px;
   width: 85%;
   margin-left: 25px;
-}
-.prima-sezione .contenitore-finestra-login{
-  position: absolute;
-  top: 250px;
-  right: 0px;
 }
 
 .prima-sezione .finestra-login {
@@ -205,25 +192,21 @@ main{
   .prima-sezione .finestra-login{
     height: 375px;
   }
-
   .quarta-sezione i{
     line-height: 399px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .prima-sezione .contenuto{
-    position: absolute;
-    top: 75px;
-    left: 0px;
-  }
-  .prima-sezione .contenitore-finestra-login{
-    position: absolute;
-    top: 450px;
-    right: 0px;
-  }
   .prima-sezione .finestra-login h3{
     width: 55%;
+  }
+  .prima-sezione .contenuto{
+    padding-top: 150px;
+    padding-bottom: 0px;
+  }
+  .prima-sezione .contenitore-finestra-login{
+    padding-top: 100px;
   }
   .quarta-sezione i{
     line-height: 304px;
@@ -231,18 +214,15 @@ main{
 }
 
 @media screen and (max-width: 767px) {
-  .prima-sezione .contenuto{
-    position: absolute;
-    top: 75px;
-    left: 0px;
-  }
-  .prima-sezione .contenitore-finestra-login{
-    position: absolute;
-    top: 450px;
-    right: 0px;
-  }
   .prima-sezione .finestra-login h3{
     width: 55%;
+  }
+  .prima-sezione .contenuto{
+    padding-top: 150px;
+    padding-bottom: 0px;
+  }
+  .prima-sezione .contenitore-finestra-login{
+    padding-top: 100px;
   }
   .quarta-sezione i{
     line-height: 394px;
