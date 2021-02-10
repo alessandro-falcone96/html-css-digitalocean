@@ -3,7 +3,7 @@ body{
 }
 
 [class*="col-"] {
-  /* border: 1px solid white; */
+  /* border: 1px solid black; */
 }
 /* General */
 i {
@@ -266,6 +266,64 @@ header .menu i{
   line-height: 40px;
 }
 
+/* Settima Sezione */
+.settima-sezione{
+  background-color: #F2F5F9;
+  padding-bottom: 100px;
+}
+.settima-sezione .prima-riga h3{
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #031B4E;
+}
+.settima-sezione .prima-riga p:not(a){
+  color: #223764;
+  font-size: 20px;
+  font-weight: 300;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 45px;
+}
+.settima-sezione .prima-riga p a{
+  font-weight: 400;
+}
+.settima-sezione .colonna-centrale{
+  background-color: white;
+}
+.settima-sezione .colonna-centrale img{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  width: 30%;
+}
+.settima-sezione .colonna-centrale p{
+  color: #223764;
+  font-size: 20px;
+  width: 80%;
+  margin: auto;
+}
+.settima-sezione .colonna-centrale i{
+  margin-right: 5px;
+  color: lightgrey;
+}
+.settima-sezione .colonna-centrale a{
+  display: inline-block;
+  padding: 15px 0px;
+}
+.settima-sezione .colonna-centrale h4{
+  color: grey;
+  font-weight: 400;
+}
+.settima-sezione .colonna-centrale h6{
+  color: lightgrey;
+  font-weight: 300;
+  padding-bottom: 50px;
+}
+.settima-sezione .colonna-sinistra i,
+.settima-sezione .colonna-destra i{
+  line-height: 333px;
+}
 
 /* Footer */
 
@@ -281,6 +339,10 @@ header .menu i{
   }
   .sesta-sezione .seconda-tabella{
     margin-top: 15px;
+  }
+  .settima-sezione .colonna-sinistra i,
+  .settima-sezione .colonna-destra i{
+    line-height: 354px;
   }
 }
 
@@ -304,6 +366,10 @@ header .menu i{
   .sesta-sezione .seconda-tabella{
     margin-top: 15px;
   }
+  .settima-sezione .colonna-sinistra i,
+  .settima-sezione .colonna-destra i{
+    line-height: 348px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -325,5 +391,9 @@ header .menu i{
   }
   .sesta-sezione .seconda-tabella{
     margin-top: 15px;
+  }
+  .settima-sezione .colonna-sinistra i,
+  .settima-sezione .colonna-destra i{
+    line-height: 354px;
   }
 }
