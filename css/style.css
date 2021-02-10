@@ -346,7 +346,45 @@ header .menu i{
 }
 
 /* Footer */
+footer{
+  background-color: #010F28;
+  padding-bottom: 50px;
+}
+footer ul li{
+  list-style: none;
+}
+footer .colonna-sinistra img{
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+footer .colonna-sinistra p{
+  color: lightgrey;
+}
+footer .colonna-sinistra span{
+  color: grey;
+}
+footer .colonna-sinistra ul{
+  padding-left: 0;
+}
+footer .colonna-sinistra ul li{
+  display: inline-block;
+}
+footer .colonna-sinistra i{
+  color: grey;
+}
+footer .colonna-destra .first{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+footer .colonna-destra li a{
+  display: inline-block;
+  padding: 3px 0px;
+  color: lightgrey;
+}
 
+/* Media Query */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .prima-sezione .finestra-login{
     height: 375px;
