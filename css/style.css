@@ -184,6 +184,39 @@ header .menu i{
 .quarta-sezione i{
   line-height: 359px;
 }
+.quarta-sezione h5{
+  padding-top: 5px;
+  padding-bottom: 50px;
+}
+
+/* Quinta Sezione */
+.quinta-sezione{
+  margin-bottom: 100px;
+}
+.quinta-sezione h3{
+  font-size: 30px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.quinta-sezione img{
+  margin-top: 10px;
+}
+.quinta-sezione h4{
+  color: black;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+.quinta-sezione p{
+  color: grey;
+}
+.quinta-sezione a{
+  font-size: 15px;
+  color: #016AFF;
+}
+
+
+
+
 
 
 /* Footer */
