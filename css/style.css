@@ -384,6 +384,60 @@ footer .colonna-destra li a{
   color: lightgrey;
 }
 
+footer .contenitore-supporto{
+  width: 500px;
+  /* background-color: yellow; */
+  position: relative;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+}
+footer .contenitore-supporto::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+footer .contenitore-supporto .scritta{
+  width: 78%;
+  border: 1px solid red;
+  float: left;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  position: relative;
+}
+footer .contenitore-supporto .scritta p{
+  font-size: 20px;
+  color: black;
+  padding: 5px;
+}
+footer .contenitore-supporto .scritta i{
+  position: absolute;
+  bottom: 10px;
+  right: -10px;
+  color: white;
+}
+
+footer .contenitore-supporto .squaletto img{
+  width: 18%;
+  object-fit: contain;
+  float: right;
+  background-color: blue;
+  border-radius: 5px;
+}
+footer .contenitore-supporto .squaletto .cerchietto{
+  height: 25px;
+  width: 25px;
+  color: white;
+  text-align: center;
+  border: 3px solid white;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
 /* Media Query */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .prima-sezione .finestra-login{
