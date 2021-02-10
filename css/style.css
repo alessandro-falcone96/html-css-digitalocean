@@ -325,6 +325,26 @@ header .menu i{
   line-height: 333px;
 }
 
+/* Ottava Sezione */
+.ottava-sezione{
+  background-image: url("../img/sfondo-ottava-sezione.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+}
+.ottava-sezione h2{
+  color: white;
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  font-weight: bolder;
+}
+.ottava-sezione a{
+  padding: 8px;
+  background-color: white;
+  color: #016AFF;
+}
+
 /* Footer */
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
