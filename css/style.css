@@ -12,6 +12,24 @@ i {
 .fa-circle{
   color: #016AFF;
 }
+.fw300{
+  font-weight: 300;
+}
+.fw400{
+  font-weight: 400;
+}
+.fw500{
+  font-weight: 500;
+}
+.fw600{
+  font-weight: 600;
+}
+.fw700{
+  font-weight: 700;
+}
+.fw800{
+  font-weight: 800;
+}
 
 /* Header */
 header{
@@ -67,7 +85,6 @@ header .menu i{
 .prima-sezione .contenuto h1{
   color: white;
   font-size: 50px;
-  font-weight: bolder;
   width: 85%;
   margin-left: 25px;
   margin-top: 30px;
@@ -89,7 +106,6 @@ header .menu i{
 }
 .prima-sezione .finestra-login h3{
   font-size: 30px;
-  font-weight: 600;
   width: 90%;
   margin: auto;
   padding-top: 20px;
@@ -130,7 +146,6 @@ header .menu i{
 }
 .seconda-sezione h5{
   font-size: 15px;
-  font-weight: 600;
   text-transform: uppercase;
   color: grey;
   line-height: 100px;
@@ -143,14 +158,12 @@ header .menu i{
 .seconda-sezione .row a{
   color: #016AFF;
   line-height: 100px;
-  font-weight: 500;
 }
 
 /* Terza Sezione */
 .terza-sezione .prima-riga h3{
   margin: 50px 0px 15px 0px;
   color: #041C4F;
-  font-weight: bold;
 }
 .terza-sezione .prima-riga p{
   width: 80%;
@@ -160,7 +173,6 @@ header .menu i{
 .terza-sezione .seconda-riga h4{
   color: #041C4F;
   font-size: 15px;
-  font-weight: 600;
 }
 .terza-sezione .seconda-riga ul{
   margin: 30px 0px;
@@ -197,7 +209,6 @@ header .menu i{
 .quarta-sezione h3{
   margin: 50px 0px 15px 0px;
   font-size: 35px;
-  font-weight: 600;
   color: #041C4F;
 }
 .quarta-sezione p{
@@ -230,7 +241,6 @@ header .menu i{
 }
 .quinta-sezione h3{
   font-size: 30px;
-  font-weight: 600;
   padding-top: 40px;
   padding-bottom: 30px;
   color: #041C4F;
@@ -240,7 +250,6 @@ header .menu i{
 }
 .quinta-sezione h4{
   color: #041C4F;
-  font-weight: 600;
   padding: 10px 0px;
 }
 .quinta-sezione p{
@@ -313,7 +322,6 @@ header .menu i{
   padding-top: 50px;
   padding-bottom: 10px;
   font-size: 35px;
-  font-weight: bold;
   color: #031B4E;
 }
 
@@ -328,9 +336,6 @@ header .menu i{
 .settima-sezione a.story,
 .settima-sezione a.story .fa-chevron-right{
   color: #016AFF;
-}
-.settima-sezione .prima-riga p a{
-  font-weight: 400;
 }
 .settima-sezione .colonna-centrale{
   background-color: white;
@@ -358,12 +363,10 @@ header .menu i{
 .settima-sezione .colonna-centrale h4{
   color: #041C4F;
   padding-top: 5px;
-  font-weight: 600;
   font-size: 15px;
 }
 .settima-sezione .colonna-centrale h6{
   color: #041C4F;
-  font-weight: 500;
 }
 .settima-sezione .colonna-sinistra i,
 .settima-sezione .colonna-destra i{
@@ -390,13 +393,11 @@ header .menu i{
   font-size: 40px;
   padding-top: 30px;
   padding-bottom: 15px;
-  font-weight: bolder;
 }
 .ottava-sezione a{
   padding: 8px;
   background-color: white;
   color: #016AFF;
-  font-weight: 500;
 }
 
 /* Footer */
@@ -429,7 +430,6 @@ footer .colonna-sinistra i{
 footer .colonna-destra .first{
   color: white;
   font-size: 20px;
-  font-weight: bold;
   padding-top: 50px;
 }
 footer .colonna-destra li a{
