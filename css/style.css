@@ -54,6 +54,43 @@ i {
 .rgbf2f5f9{
   color: #f2f5f9;
 }
+/* Padding */
+.pb10{
+  padding-bottom: 10px;
+}
+.pb15{
+  padding-bottom: 15px;
+}
+.pb30{
+  padding-bottom: 30px;
+}
+.pb50{
+  padding-bottom: 50px;
+}
+.pb100{
+  padding-bottom: 100px;
+}
+.pb150{
+  padding-bottom: 150px;
+}
+.pb330{
+  padding-bottom: 330px;
+}
+.pt5{
+  padding-top: 5px;
+}
+.pt20{
+  padding-top: 20px;
+}
+.pt40{
+  padding-top: 40px;
+}
+.pt50{
+  padding-top: 50px;
+}
+.pt75{
+  padding-top: 75px;
+}
 
 /* Header */
 header{
@@ -124,14 +161,11 @@ header .menu i{
   height: 300px;
   width: 100%;
   border-radius: 5px;
-  padding-bottom: 330px;
 }
 .prima-sezione .finestra-login h3{
   font-size: 30px;
   width: 90%;
   margin: auto;
-  padding-top: 20px;
-  padding-bottom: 10px;
   line-height: 40px;
 }
 .prima-sezione .finestra-login input{
@@ -237,12 +271,8 @@ header .menu i{
 .quarta-sezione [class*="chevron"]:hover {
   color: #031b4e;
 }
-.quarta-sezione h5{
-  padding-top: 5px;
-}
 .quarta-sezione span{
   display: inline-block;
-  padding-bottom: 50px;
 }
 
 /* Quinta Sezione */
@@ -251,8 +281,6 @@ header .menu i{
 }
 .quinta-sezione h3{
   font-size: 30px;
-  padding-top: 40px;
-  padding-bottom: 30px;
 }
 .quinta-sezione img{
   margin-top: 10px;
@@ -268,7 +296,6 @@ header .menu i{
 .sesta-sezione{
   background-image: url("../img/bg-map.svg");
   background-color: blue;
-  padding-bottom: 150px;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #031B4E;
@@ -283,7 +310,6 @@ header .menu i{
 .sesta-sezione h2{
   color: white;
   font-size: 40px;
-  padding-top: 75px;
   width: 75%;
   margin: auto;
 }
@@ -316,11 +342,8 @@ header .menu i{
 /* Settima Sezione */
 .settima-sezione{
   background-color: #F2F5F9;
-  padding-bottom: 100px;
 }
 .settima-sezione .prima-riga h3{
-  padding-top: 50px;
-  padding-bottom: 10px;
   font-size: 35px;
   color: #031B4E;
 }
@@ -335,11 +358,8 @@ header .menu i{
 }
 .settima-sezione .colonna-centrale{
   background-color: white;
-  padding-bottom: 50px;
 }
 .settima-sezione .colonna-centrale img{
-  padding-top: 50px;
-  padding-bottom: 30px;
   width: 30%;
 }
 .settima-sezione .colonna-centrale p{
@@ -356,7 +376,6 @@ header .menu i{
   padding: 15px 0px;
 }
 .settima-sezione .colonna-centrale h4{
-  padding-top: 5px;
   font-size: 15px;
 }
 .settima-sezione .colonna-sinistra i,
@@ -369,7 +388,6 @@ header .menu i{
 }
 .settima-sezione span{
   display: inline-block;
-  padding-top: 20px;
 }
 
 /* Ottava Sezione */
@@ -377,13 +395,10 @@ header .menu i{
   background-image: url("../img/sfondo-ottava-sezione.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 50px;
 }
 .ottava-sezione h2{
   color: white;
   font-size: 40px;
-  padding-top: 30px;
-  padding-bottom: 15px;
 }
 .ottava-sezione a{
   padding: 8px;
@@ -393,14 +408,9 @@ header .menu i{
 /* Footer */
 footer{
   background-color: #010F28;
-  padding-bottom: 100px;
 }
 footer ul li{
   list-style: none;
-}
-footer .colonna-sinistra img{
-  padding-top: 40px;
-  padding-bottom: 10px;
 }
 footer .colonna-sinistra p{
   color: lightgrey;
@@ -420,7 +430,6 @@ footer .colonna-sinistra i{
 footer .colonna-destra .first{
   color: white;
   font-size: 20px;
-  padding-top: 50px;
 }
 footer .colonna-destra li a{
   display: inline-block;
