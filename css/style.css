@@ -300,13 +300,13 @@ header .menu i{
   background-size: cover;
   background-color: #031B4E;
 }
-.sesta-sezione .contenitore{
+/* .sesta-sezione .contenitore{
   width: 95%;
   margin: auto;
 }
 .sesta-sezione .contenitore:not(:last-child){
   border-bottom: 1px solid grey;
-}
+} */
 .sesta-sezione h2{
   color: white;
   font-size: 40px;
@@ -321,7 +321,7 @@ header .menu i{
   margin-top: 25px;
   margin-bottom: 75px;
 }
-.sesta-sezione h5{
+/* .sesta-sezione h5{
   color: white;
 }
 .sesta-sezione h6{
@@ -337,6 +337,21 @@ header .menu i{
   display: inline-block;
   height: 40px;
   line-height: 40px;
+} */
+
+.sesta-sezione .table tr td{
+  vertical-align: middle;
+  border-top: none;
+  padding: 15px 0px;
+}
+.sesta-sezione .table tr:not(:last-child){
+  border-bottom: 1px solid grey;
+}
+.sesta-sezione .table tr td.zone{
+  color: white;
+}
+.sesta-sezione .table tr td.citta{
+  color: grey;
 }
 
 /* Settima Sezione */
